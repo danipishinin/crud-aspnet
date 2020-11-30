@@ -1,0 +1,58 @@
+﻿* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.tabTitulo {
+    color: #56A5FF;
+    text-align: center;
+}
+
+.tabGeral {
+    background-color: #A6BDEB;
+    margin: 0 auto;
+}
+    .tabGeral tbody tr:nth-of-type(even) {
+        background-color: #C6D1E9;
+    }
+
+
+.msgErro, .acoes_cadastro, .cadastro {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.forms_cadastro{
+    justify-content: space-between;
+    
+}
+
+hr {
+    color: #C489FF;
+    font-size: 20px;
+}
+
+#btnInserir, #btnAlterar, #btnLimpar {
+    background-color: #6C98EC;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+#btnInserir:hover, #btnAlterar:hover, #btnLimpar:hover {
+    cursor: pointer;
+    background-color: #2D6BE4;
+}
+
+.input_cadastro {
+    border: none;
+    background-color: #DDEDFF;
+    border-radius: 2px;
+    height: 30px;
+}
+
+header {
+    background-color: antiquewhite;
+}
